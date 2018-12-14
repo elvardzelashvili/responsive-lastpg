@@ -10,12 +10,40 @@
 
 }
 
-@media(max-width: 728px){
+@media(max-width: 768px){
+ .list {
+    display: none;
+  } 
+  .icons li{
+    display: none;
+  }
+   
+  .icons li:last-child{
+  	display: block;
+  }
+  .burgerimg {
+    margin-right:30px;
+    display: block; 
+  }
+ .icons ul{
+    width: 220px;
+  }
+}
+
+
+
+
+
+@media(max-width: 480px){
   .icons {
     display: none;
   }
-
+.icons li:last-child{
+    display: block;
+  }
    .list {
     display: none;
   }
 }
+
+
