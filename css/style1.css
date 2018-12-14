@@ -1,0 +1,689 @@
+
+
+/*reset css */
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed, 
+   figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+   	margin: 0;
+   	padding: 0;
+   	border: 0;
+   	font-size: 100%;
+   	font: inherit;
+   	vertical-align: baseline;
+   }
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+   	display: block;
+   }
+   body {
+   	line-height: 1;
+   }
+   ol, ul {
+   	list-style: none;
+   }
+   blockquote, q {
+   	quotes: none;
+   }
+   blockquote:before, blockquote:after,
+   q:before, q:after {
+   	content: '';
+   	content: none;
+   }
+   table
+   {
+   	border-collapse: collapse;
+   	border-spacing: 0;
+   }
+   a
+   {text-decoration: none;}
+   * {
+    box-sizing: border-box;
+  }
+  /*end reset*/
+
+
+
+  body {
+  }
+
+  header {
+    width: 100%;
+
+  }
+  .mother {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    width: 1170px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .list ul{
+    display: flex;
+    justify-content: center;
+  }
+  .imgburger{
+
+    height: 30px;
+    display: none;
+
+  }
+  .list a {
+    font-size: 24px;
+    color: #3D58A6;
+  }
+  .list a:hover {
+    font-size: 24px;
+    color: #29ABE2;
+  }
+  .list li {
+    width: 55px;
+    font-size: 24px;
+    color: #3D58A6;
+    margin-right: 30px;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+
+  }
+  .icons ul{
+    display: flex;
+    justify-content: flex-end ;
+    width: 350px;
+
+  }
+
+  .icons li {
+    border-right: 2px solid #363E97;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 65px;
+    font-size: 30px;
+    color: #363E97;
+
+  }
+  .icons li:last-child {
+    border-right: none;
+    margin-right: 0;
+  }
+  .icons a:hover {
+   cursor: pointer;
+   height: 30px;
+
+ }
+  .icons li:first-child {
+   margin-left: 0;
+}
+   .icons img {
+   height: 30px;
+
+}
+
+
+/*header finish*/
+
+
+.marginauto {
+  margin:auto;
+  width: 1170px;
+}
+/*100% section start*/
+ 
+
+.sectionh {
+  width: 95%;
+  max-width:1170px; 
+  height: 90px;
+  background-color: #EE4036;
+}
+.sectionh h3 {
+  color: white;
+  font-size: 22px;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 90px;  
+}
+@media screen and (max-width:1200px)
+{
+ .marginauto {
+  width: 1000px;
+}
+iframe {
+  width: 100%;
+}
+}
+
+@media screen and (max-width:1024px)
+{
+ .marginauto {
+  width: 800px;
+}
+iframe {
+  width: 100%;
+}
+
+} 
+@media screen and (max-width:768px)
+{
+ .marginauto {
+  width:768px;
+  margin: auto;
+}
+iframe {
+  width: 100%;
+}
+}  
+
+@media screen and (max-width:480px)
+{
+ .marginauto {
+  width:480px;
+  margin: auto;
+}
+iframe {
+  width: 100%;
+}
+} 
+
+@media screen and (max-width:320px)
+{
+ .marginauto {
+  width:320px;
+  margin: auto;
+}
+iframe {
+  width: 100%;
+}
+} 
+/*100% end*/
+
+/*maps start*/
+.asidiv {
+  width: 100%;
+  height: auto;
+  background-color: #E6E6E6;
+}
+
+
+
+/*maps end*/
+
+.sectionsami {
+ width: 100%;
+ height: auto;
+}
+.bluediv
+{ background-color: #363E97;
+  height: 620px;
+}
+.misamartebi {
+  margin-left: 100px;
+  padding-top: 40px;
+  color: white;
+  padding-right: 50px;
+  float: left;
+}
+.misamartebi li {
+  padding-bottom: 25px;
+  font-size: 20px;
+
+}
+
+.forms
+{
+ width: 630px;
+ float: right;
+ margin-top: 25px;
+ margin-right: 175px;
+}
+.box {
+  width: 630px;
+  height: 60px;
+  margin-bottom: 50px;
+}
+.forms h1{
+ font-size: 20px;
+ color: white;
+ margin-bottom: 10px;
+ margin-top: 15px;
+ margin-left: 25px;
+
+}
+.forms input {
+  width: 630px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.lastbox {
+ width: 630px;
+ height: 100px;
+ margin-bottom: 50px;
+}
+.lastbox input {
+  height: 100px;
+}
+
+.forms button {
+  height: 50px;
+  line-height: 50px;
+  width: 120px;
+  background-color: red;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width:1200px)
+{
+ .forms, .box, .lastbox{
+  width: 320px;   }
+  .forms input {
+    width: 320px;  
+  }
+  .forms {
+    margin-right:170px;
+  }
+  .marginauto {
+    width: 800px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:1024px)
+{ 
+ .forms, .box, .lastbox{
+  width: 320px;   }
+  .forms input {
+    width: 320px;  
+  }
+  .forms {
+    margin-right:100px;
+  }
+.marginauto {
+    width: 800px;
+    margin: auto;
+  }
+  .misamartebi {
+    margin-left: 60px;
+    padding-top: 40px;
+    color: white;
+    padding-right:30px;
+    float: left;
+  }
+
+}
+
+@media screen and (max-width:768px)
+{
+
+  .marginauto {
+    width: 768px;
+    margin: auto;
+    background-color: grey;
+  }
+  .forms, .box, .lastbox{
+    width: 320px;   }
+    .forms input {
+      width: 320px;  
+    }
+    .forms {
+      margin-right:80px;
+    }
+
+    .misamartebi {
+      margin-left: 50px;
+      padding-top: 40px;
+      color: white;
+      padding-right:10px;
+      float: left;
+    }
+  }
+
+  @media screen and (max-width:480px)
+  {
+    .forms, .box, .lastbox
+    {
+      width: 300px;   }
+
+      .forms input {
+        width: 300px;  
+      }
+
+      .marginauto {
+        width: 480px;
+        max-width: 480px;
+
+
+      }
+      .forms {
+        margin-right:20px;
+        height: 420px;
+        background-color: red;  
+      }
+
+      .misamartebi {
+        width: 80px;
+        margin-left:155px;
+        margin-top: 480px;
+      }
+      .misamartebi li {
+        padding-bottom: 5px;
+        font-size: 12px;
+        margin-bottom: 5px;
+
+      }
+      .box {
+        height: 40px;
+        margin-bottom: 40px;
+      }
+      .forms h1{
+       font-size: 14px;
+       color: white;
+       margin-bottom: 20px;
+       margin-top: 20px;
+       margin-left: 15px;
+
+     }
+     .forms input {
+      height: 40px;
+      margin-bottom: 10px;
+    }
+
+    .lastbox {
+      height: 50px;
+      margin-bottom: 30px;
+    }
+    .lastbox input {
+      height: 50px;
+      margin-bottom: 30px;
+    }
+
+    .forms button {
+      margin-top: 30px;
+      height: 30px;
+      line-height: 30px;
+      width: 120px;
+
+    }
+  } 
+
+
+  @media screen and (max-width:320px)
+  {
+    .forms, .box, .lastbox{
+      width: 250px;   }
+      .forms input {
+        width: 250px;  
+      }
+      .forms {
+        margin-right:20px;
+        float: left;
+      }
+
+      .misamartebi {
+        width: 100px;
+        margin-left:5px;
+        color: white;
+        padding-right:50px;
+        float: left;
+        font-size: 10px;
+      }
+    }    
+    /*blue ends*/
+
+    /*shares start*/
+    .shares {
+      width: 1170px;
+      height: 100px;
+      margin: auto;
+    }
+
+
+    .sharesimg{
+      float: right;
+      line-height: 120px;
+      height: 22px;
+    }
+
+    @media only screen and (max-width: 1200px)
+    {   
+      .shares {
+        width: 1000px;
+        height: 100px;
+        margin: auto;
+      }
+
+      .sharesimg a {
+       width: 70px;
+       float: left;
+     }
+
+   }
+
+   @media only screen and (max-width: 1024px)
+   {   
+    .shares {
+      width: 800px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    .sharesimg a {
+     width: 70px;
+     margin: auto;
+   }
+
+ }
+ @media only screen and (max-width: 768px)
+ {   
+  .shares {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sharesimg a {
+   width: 70px;
+   margin: auto;
+ }
+
+}
+
+ @media only screen and (max-width: 768px)
+ {   
+  .shares {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sharesimg a {
+   width: 70px;
+   margin: auto;
+ }
+
+}
+ @media only screen and (max-width: 480px)
+ {   
+  .shares {
+    width: 480px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sharesimg a {
+   width: 70px;
+   margin: auto;
+ }
+
+}
+
+
+/*footer start
+*/
+footer {
+  width: 100%;
+  background-color: white; 
+ 
+}
+.footerdiv
+{
+  margin: auto;
+  width: 1170px;
+  height: 60px;
+
+}
+.footerpp
+{
+ 
+  font-size: 12px;
+  display: inline-block;
+
+}
+.footerp
+{  display: inline-block;
+  width: 1095px;
+  font-size: 12px;
+
+}
+
+@media only screen and (max-width: 1200px)
+{
+ .footerdiv {
+  width: 1000px;
+  line-height: 60px;
+}
+  .footerpp
+  {
+   
+   color: black;
+   display: inline-block;
+
+ }
+ .footerp
+ {width: 925px;
+ display: inline-block;}
+}
+
+}
+@media only screen and (max-width: 1024px)
+{
+  footer {
+    width:100%;
+  }
+  .footerdiv
+  {
+    margin: auto;
+    width: 800px;
+    display: block;
+
+  }
+  .footerpp
+  {
+   width: 400px;
+   line-height: 30px;
+   font-size: 12px;
+   text-align:center;
+   color: black;
+   float: left;
+
+ }
+ .footerp
+ {
+  width: 400px;
+  line-height: 30px;
+  font-size: 12px;
+  text-align: center;
+  color: black;
+float: left;}
+}
+}
+@media only screen and (max-width: 768px)
+{
+   footer {
+    width:100%;
+  }
+  .footerdiv
+  {
+    margin: auto;
+    width: 700px;
+    display: block;
+
+  }
+  .footerpp
+  {
+    text-align: center;
+   width: 700px;
+   height: 10px;
+
+ }
+ .footerp
+ {
+  width: 700px;
+     text-align: center;
+     height: 10px;
+
+  
+}
+}
+@media only screen and (max-width:320px)
+{
+
+  footer {
+    width:100%;
+  }
+  .footerdiv
+  {
+    margin: auto;
+    width: 320px;
+    display: block;
+
+  }
+  .footerpp
+  {
+    text-align: center;
+   width: 320px;
+   height: 10px;
+   float: left;
+
+
+ }
+ .footerp
+ {
+  width: 320px;
+     text-align: center;
+     height: 10px;
+     float: left;
+
+  
+}
+}
+
