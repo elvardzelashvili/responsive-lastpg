@@ -253,12 +253,10 @@
 /*shares start*/
 
 .sharesdiv {
-  max-width: 1170px;
-  width: 100%;
-  background-color: grey;
+  background-color: #E6E6E6;
 }
 .shares {
-  width: 1170px;
+  max-width: 1170px;
   width: 95%;
   height: 100px;
   margin: auto;
@@ -279,27 +277,30 @@
 /*footer start*/
 footer {
   width: 100%;
+  height: 60px;
 
 }
 .footerdiv
 {
   margin: auto;
   max-width: 1170px;
-  width: 96px;
+  width: 95%;
   height: 60px;
-
+  display: flex;
+  flex-direction: column;
+align-items: center;
 }
 .footerpp
 {
 
   font-size: 12px;
-  display: inline-block;
+  display: block;
 
 }
 .footerp
-{  display: inline-block;
-  width: 1095px;
+{ 
   font-size: 12px;
+   display: block;
 
 }
 

@@ -3,10 +3,11 @@
   .list {
     display: none;
   }
-  .imgburger {
-    display: inline-block;
-    margin-left: 20px;
+  .burgerimg {
+    display: block;
+    margin-right: 20px;
   }
+
   .headerimg {
     width:150px;
   }
@@ -22,26 +23,41 @@
 
 .icons li:last-child{
  display: block;
+
+}
+.icons img{
+  height: 30px;
 }
 .burgerimg {
-  margin-right:30px;
-  display: block; 
-}
+    display: block;
+    margin-right: 20px;
+  }
 .icons ul{
   width: 220px;
 }
+.headerimg {
+    width:120px;
+  }
 }
 
 
 @media(max-width: 480px){
-  .icons {
-    display: none;
-  }
-  .icons li:last-child{
-    display: block;
-  }
+  .icons li{
+  display: none;
+}
+
+.icons li:last-child{
+ display: block;
+}
   .list {
     display: none;
+  }
+ .burgerimg {
+    display: block;
+    margin-right: 20px;
+  }
+  .headerimg {
+    width:100px;
   }
 }
 
@@ -200,6 +216,4 @@
 
   /*ends media forms */
 
-  /*footer media starts*/
 
-  /*end media all*/
