@@ -293,7 +293,7 @@ align-items: center;
 }
 .footerpp
 {
-
+   margin-top: 10px;
   font-size: 12px;
   display: block;
 
@@ -302,6 +302,6 @@ align-items: center;
 { 
   font-size: 12px;
    display: block;
-
+ margin-top: 10px;
 }
 
